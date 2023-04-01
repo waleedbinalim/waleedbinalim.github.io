@@ -1,14 +1,12 @@
 import { Title } from "solid-start";
-import { Counter, Navbar } from "~/components";
+import { Counter, Hero } from "~/components";
 
 export const Home = () => {
   return (
     <>
-      <Navbar />
-
       <main>
         <Title>Hello World</Title>
-        <h1>Hello world!</h1>
+        <Hero />
         <Counter />
         <p>
           Visit{" "}
