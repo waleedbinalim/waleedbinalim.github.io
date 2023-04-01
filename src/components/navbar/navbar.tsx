@@ -1,14 +1,8 @@
 import { Component, For, createSignal, Show } from "solid-js";
+import { navRoutes } from "~/constants";
 
 export const Navbar: Component = () => {
   const [openHamburger, setOpenHamburder] = createSignal<boolean>(false);
-
-  const navRoutes = [
-    { name: "Home", href: "#" },
-    { name: "About", href: "#" },
-    { name: "Projects", href: "#" },
-    { name: "Contact", href: "#" },
-  ];
 
   return (
     <nav class="bg-black">
