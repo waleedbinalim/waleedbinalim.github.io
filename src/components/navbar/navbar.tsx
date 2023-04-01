@@ -32,7 +32,9 @@ export const Navbar: Component = () => {
                   {(route) => (
                     <A
                       href={route.href}
-                      class="rounded-md  px-3 py-2 text-sm font-medium text-white hover:bg-gray-700"
+                      class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-gray-700"
+                      activeClass="underline decoration-white decoration-2 underline-offset-2"
+                      end
                     >
                       {route.name}
                     </A>

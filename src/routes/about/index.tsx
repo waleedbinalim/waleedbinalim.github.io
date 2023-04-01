@@ -5,7 +5,7 @@ import { Counter } from "~/components";
 export const Apple = () => {
   return (
     <main>
-      <Title>Apple</Title>
+      <Title>About</Title>
       <h1>Apple</h1>
       <Counter />
       <p>
