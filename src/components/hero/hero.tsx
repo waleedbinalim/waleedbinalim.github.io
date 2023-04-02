@@ -1,5 +1,6 @@
 import { imgUrls } from "~/constants";
 import { SolidTyper } from "solid-typer";
+import { LinkedInIcon } from "~/assets";
 
 export const Hero = () => {
   return (
@@ -11,10 +12,14 @@ export const Hero = () => {
               Hi, I'm <span class="text-4xl text-green-400">Waleed</span>
             </p>
             <p class="mb-4 text-xl">
-              I like{" "}
+              I do{" "}
               <span class="text-2xl font-bold text-green-400">
                 <SolidTyper
-                  text={["Web Development", "3D Designing", "Illustrating"]}
+                  text={[
+                    "Web Development",
+                    "3D Designing",
+                    "Vector Illustrations",
+                  ]}
                   backspaceSpeed={30}
                   typingSpeed={100}
                   backspacePause={40}
@@ -29,7 +34,14 @@ export const Hero = () => {
                 View Resume
               </button>
               <div>
-                <div></div>
+                <div class="h-6 w-6 cursor-pointer fill-green-400 opacity-50 [&_path]:fill-gray-200">
+                  <a
+                    href="
+                  "
+                  >
+                    <LinkedInIcon />
+                  </a>
+                </div>
                 <div></div>
               </div>
             </div>
