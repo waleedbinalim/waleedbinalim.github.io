@@ -6,10 +6,12 @@ export const Apple = () => {
   return (
     <main>
       <Title>About</Title>
-      <h1>Apple</h1>
       <Counter />
-      <p>
-        Go back to home <A href="/">here</A>
+      <p class="text-xl font-bold">
+        Go back home{" "}
+        <span class="text-blue-500 underline">
+          <A href="/">Here</A>
+        </span>
       </p>
     </main>
   );

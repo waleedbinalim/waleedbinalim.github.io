@@ -35,11 +35,11 @@ export const Hero = () => {
               </span>
             </p>
 
-            <div class="max-w-[139.92px]">
-              <button class="rounded-full border-2 border-green-400 px-4 py-2 font-bold text-green-400 transition-colors hover:bg-green-400 hover:text-gray-800">
+            <div class="min-w-[140px] max-w-[170px]">
+              <button class="w-full rounded-full border-2 border-green-400 px-4 py-2 font-bold text-green-400 transition-colors hover:bg-green-400 hover:text-gray-800">
                 View Resume
               </button>
-              <div class="flex justify-center pt-3">
+              <div class="flex w-full justify-center pt-3">
                 <For each={heroSocials}>
                   {(item) => (
                     <div class="cursor-pointer fill-green-400 px-1 opacity-50 hover:opacity-100 [&_path]:!fill-gray-200 [&_svg]:!h-6 [&_svg]:!w-6">
