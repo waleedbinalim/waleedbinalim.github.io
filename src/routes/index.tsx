@@ -1,5 +1,5 @@
 import { Title } from "solid-start";
-import { Hero } from "~/components";
+import { About, Hero } from "~/components";
 
 export const Home = () => {
   return (
@@ -7,6 +7,7 @@ export const Home = () => {
       <main>
         <Title>Hello World</Title>
         <Hero />
+        <About />
       </main>
     </>
   );

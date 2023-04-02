@@ -1,7 +1,7 @@
-import { imgUrls, socialsUrls } from "~/constants";
+import { For } from "solid-js";
 import { SolidTyper } from "solid-typer";
 import { GithubIcon, LinkedInIcon } from "~/assets";
-import { For } from "solid-js";
+import { imgUrls, socialsUrls } from "~/constants";
 
 export const Hero = () => {
   const heroSocials = [
@@ -11,8 +11,8 @@ export const Hero = () => {
 
   return (
     <>
-      <section class="w-100 bg-black pb-[48px]">
-        <div class="w-100 align-center mb-2 flex min-w-full flex-wrap items-center justify-between px-36 py-8 pt-20 text-white">
+      <section class="w-100 bg-black">
+        <div class="w-100 align-center flex min-w-full flex-wrap items-center justify-between px-36 py-8 pt-20 text-white">
           <div>
             <p class="text-2xl font-semibold">
               Hi, I'm <span class="text-4xl text-green-400">WALEED</span>
