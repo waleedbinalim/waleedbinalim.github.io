@@ -1,19 +1,25 @@
-import { imgUrls } from "~/constants";
+import { imgUrls, socialsUrls } from "~/constants";
 import { SolidTyper } from "solid-typer";
-import { LinkedInIcon } from "~/assets";
+import { GithubIcon, LinkedInIcon } from "~/assets";
+import { For } from "solid-js";
 
 export const Hero = () => {
+  const heroSocials = [
+    { href: socialsUrls.linkedIn, icon: <LinkedInIcon /> },
+    { href: socialsUrls.github, icon: <GithubIcon /> },
+  ];
+
   return (
     <>
-      <section class="w-100 h-screen bg-black">
-        <div class="w-100 align-center mb-2 flex flex-wrap items-center justify-between px-36 py-8 pt-20 text-white">
+      <section class="w-100 bg-black pb-[48px]">
+        <div class="w-100 align-center mb-2 flex min-w-full flex-wrap items-center justify-between px-36 py-8 pt-20 text-white">
           <div>
             <p class="text-2xl font-semibold">
-              Hi, I'm <span class="text-4xl text-green-400">Waleed</span>
+              Hi, I'm <span class="text-4xl text-green-400">WALEED</span>
             </p>
-            <p class="mb-4 text-xl">
+            <p class="mb-4 min-w-[300px] text-xl">
               I do{" "}
-              <span class="text-2xl font-bold text-green-400">
+              <span class=" text-2xl font-bold text-green-400">
                 <SolidTyper
                   text={[
                     "Web Development",
@@ -29,20 +35,20 @@ export const Hero = () => {
               </span>
             </p>
 
-            <div>
+            <div class="max-w-[139.92px]">
               <button class="rounded-full border-2 border-green-400 px-4 py-2 font-bold text-green-400 transition-colors hover:bg-green-400 hover:text-gray-800">
                 View Resume
               </button>
-              <div>
-                <div class="h-6 w-6 cursor-pointer fill-green-400 opacity-50 [&_path]:fill-gray-200">
-                  <a
-                    href="
-                  "
-                  >
-                    <LinkedInIcon />
-                  </a>
-                </div>
-                <div></div>
+              <div class="flex justify-center pt-3">
+                <For each={heroSocials}>
+                  {(item) => (
+                    <div class="cursor-pointer fill-green-400 px-1 opacity-50 hover:opacity-100 [&_path]:!fill-gray-200 [&_svg]:!h-6 [&_svg]:!w-6">
+                      <a href={item.href} target="_blank">
+                        {item.icon}
+                      </a>
+                    </div>
+                  )}
+                </For>
               </div>
             </div>
           </div>
