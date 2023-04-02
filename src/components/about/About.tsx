@@ -59,7 +59,7 @@ export const About: Component = () => {
           Education
         </div>
 
-        <div class="w-100 bg-black px-32 pb-4 text-center text-3xl font-bold text-green-400">
+        <div class="w-100 bg-black px-32 pb-12 text-center text-3xl font-bold text-green-400">
           <p class="pb-4">
             Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
           </p>
