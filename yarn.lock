@@ -3342,6 +3342,11 @@ solid-start@^0.2.24:
     vite-plugin-solid "^2.6.1"
     wait-on "^6.0.1"
 
+solid-typer@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/solid-typer/-/solid-typer-0.0.3.tgz#e465a11238e0f3530188e9f0d2490ae49699c9fe"
+  integrity sha512-o2uAgse33KLn68AvBPOs8dWqAn5jSTIYHP1kBM+pko2zjAULZHS1wXTJhelhnCQvN00Xk0GKQvUbi1JS3Scb/Q==
+
 source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
