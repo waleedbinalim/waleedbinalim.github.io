@@ -26,7 +26,7 @@ export const About: Component = () => {
         <WaveOne />
       </div>
 
-      <h1 class="bg-gray-900 px-36 pb-14 text-center text-3xl font-bold text-slate-200 sm:text-left sm:text-4xl">
+      <h1 class="bg-gray-900 px-24 pb-14 text-center text-3xl font-bold text-slate-200 sm:px-36 sm:text-4xl">
         WORK
       </h1>
 
@@ -35,9 +35,14 @@ export const About: Component = () => {
           {(company, i) => (
             <div
               class="flex w-full items-baseline justify-start px-4 py-4 pb-8 text-center sm:text-left"
-              classList={{ ["sm:justify-end"]: (+i() + 1) % 2 === 0 }}
+              classList={{
+                ["sm:justify-end sm:[&>div]:w-auto"]: (+i() + 1) % 2 === 0,
+              }}
             >
-              <div class="w-full">
+              <div
+                class="w-full "
+                classList={{ ["sm:[&>div]:w-auto"]: (+i() + 1) % 2 === 0 }}
+              >
                 <div class="ms:text-3xl flex items-center justify-center text-center text-2xl font-bold text-slate-200 sm:justify-start sm:pl-4 sm:text-left sm:text-4xl">
                   <div class="hidden h-8 w-8 items-center justify-center rounded-full border-4 border-slate-300 sm:flex">
                     <div class=" h-4 w-4 rounded-full bg-slate-300" />
