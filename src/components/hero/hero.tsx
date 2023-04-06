@@ -12,7 +12,7 @@ export const Hero = () => {
   return (
     <>
       <section class="w-100 bg-black">
-        <div class="w-100 align-center flex min-w-full flex-wrap items-center justify-center px-36 py-8 pt-20 text-white sm:justify-between xl:px-60">
+        <div class="w-100 align-center grid min-w-full items-center justify-center px-36 py-8 pt-20 text-white sm:grid-cols-2 xl:px-60">
           <div class="w-100 text-center md:text-left">
             <p class="text-2xl font-semibold xl:pb-2 xl:text-5xl">
               Hi, I'm{" "}
@@ -54,11 +54,11 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div class="w-100 relative flex h-[200px] min-w-[200px] sm:h-[320px] sm:min-w-[300px] xl:h-[400px] xl:min-w-[400px]">
-            <div class="absolute left-0 top-0 h-full w-[200px] rotate-12 rounded-xl bg-green-300 sm:h-80 sm:w-[300px] xl:h-full xl:w-[400px]" />
-            <div class="absolute left-0 top-0 h-full w-[200px] rotate-6 rounded-xl bg-green-400 drop-shadow-xl sm:h-80 sm:w-[300px] xl:h-full xl:w-[400px]" />
+          <div class="w-100 relative mx-auto flex h-[200px] min-w-[200px] sm:h-[320px] sm:min-w-[300px] xl:h-[400px] xl:min-w-[400px]">
+            <div class="absolute inset-0 h-full w-[200px] rotate-12 rounded-xl bg-green-300 sm:h-80 sm:w-[300px] xl:h-full xl:w-[400px]" />
+            <div class="absolute inset-0 h-full w-[200px] rotate-6 rounded-xl bg-green-400 drop-shadow-xl sm:h-80 sm:w-[300px] xl:h-full xl:w-[400px]" />
             <img
-              class="absolute left-0 top-0 rounded-xl border-2 border-green-400 drop-shadow-xl sm:h-80 xl:h-full"
+              class="absolute inset-0 h-full w-[200px] rounded-xl border-2 border-green-400 drop-shadow-xl sm:w-auto xl:h-full"
               src={imgUrls.heroAvatar}
               alt="waleed-avatar"
             />
