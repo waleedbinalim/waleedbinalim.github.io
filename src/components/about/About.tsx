@@ -55,11 +55,11 @@ export const About: Component = () => {
           Education
         </div>
 
-        <div class="w-100 bg-black px-32 pb-12 text-center text-3xl font-bold text-green-400">
+        <div class="w-100 bg-black px-16 pb-12 text-center text-xl font-bold text-green-400 sm:px-32 sm:text-3xl">
           <p class="pb-4">
             Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
           </p>
-          <p class="pb-4 text-xl font-semibold text-white">
+          <p class="pb-4 text-sm font-semibold text-white sm:text-xl">
             B.Sc Electrical Engineering{" "}
             <span class="text-green-400">(Electronics)</span>
           </p>
