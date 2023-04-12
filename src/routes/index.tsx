@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <>
       <main>
-        <Title>Hello World</Title>
+        <Title>Waleed Bin Alim</Title>
         <Hero />
         <About />
         <Projects />
