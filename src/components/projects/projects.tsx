@@ -3,7 +3,7 @@ import { ProjectComponent } from "./project-component";
 
 export const Projects: Component = () => {
   const [selected, setSelected] = createSignal<string>("Pulse Plus");
-  const projectsArr2 = [
+  const projectsList = [
     {
       title: "Pulse Plus",
       tags: ["D3", "NextJS", "XState", "NestJS"],
@@ -34,11 +34,11 @@ export const Projects: Component = () => {
 
           <div class="grid gap-4 md:grid-cols-5 md:gap-8">
             <div class="col-span-5 md:col-span-1">
-              <For each={projectsArr2}>
+              <For each={projectsList}>
                 {(e, i) => (
                   <>
                     <div
-                      class="h-18 mb-2 rounded-xl bg-white p-4 text-sm shadow-xl"
+                      class="h-18 mb-2 rounded-xl bg-white p-4 text-center text-sm shadow-xl"
                       classList={{
                         "border-2 border-green-300 shadow-none":
                           selected() === e.title,
@@ -52,7 +52,7 @@ export const Projects: Component = () => {
               </For>
             </div>
 
-            <For each={projectsArr2}>
+            <For each={projectsList}>
               {(e, i) => (
                 <>
                   <Show when={selected() === e?.title}>
