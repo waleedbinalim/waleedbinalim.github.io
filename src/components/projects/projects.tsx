@@ -1,9 +1,30 @@
-import { Component, For, createSignal } from "solid-js";
+import { Component, For, Show, createSignal } from "solid-js";
 import { ProjectComponent } from "./project-component";
 
 export const Projects: Component = () => {
   const [selected, setSelected] = createSignal<string>("Pulse Plus");
-  const projectsArr = ["Pulse Plus", "Remotebase", "Weather App"];
+  const projectsArr2 = [
+    {
+      title: "Pulse Plus",
+      tags: ["D3", "NextJS", "XState", "NestJS"],
+      imageSrc: "https://www.pulse.plus/images/common/pulse_plus_box.png",
+      description: [
+        " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+      ],
+    },
+    {
+      title: "Remotebase",
+      tags: ["Amplify", "React", "GraphQL", "TypeScript"],
+      imageSrc: "",
+      description: [""],
+    },
+    {
+      title: "Weather App",
+      tags: ["JavaScript", "REST API", ""],
+      imageSrc: "",
+      description: [""],
+    },
+  ];
 
   return (
     <>
@@ -13,31 +34,38 @@ export const Projects: Component = () => {
 
           <div class="grid gap-4 md:grid-cols-5 md:gap-8">
             <div class="col-span-5 md:col-span-1">
-              <For each={projectsArr}>
+              <For each={projectsArr2}>
                 {(e, i) => (
                   <>
                     <div
                       class="h-18 mb-2 rounded-xl bg-white p-4 text-sm shadow-xl"
                       classList={{
                         "border-2 border-green-300 shadow-none":
-                          selected() === e,
+                          selected() === e.title,
                       }}
-                      onClick={() => setSelected(e)}
+                      onClick={() => setSelected(e.title)}
                     >
-                      {e}
+                      {e.title}
                     </div>
                   </>
                 )}
               </For>
             </div>
-            <ProjectComponent
-              title="Pulse Plus"
-              tags={["NextJS", "D3", "Styled Components"]}
-              desc={[
-                " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-              ]}
-              image="https://www.pulse.plus/images/common/pulse_plus_box.png"
-            />
+
+            <For each={projectsArr2}>
+              {(e, i) => (
+                <>
+                  <Show when={selected() === e?.title}>
+                    <ProjectComponent
+                      title={e.title}
+                      tags={e.tags}
+                      desc={e.description}
+                      image={e.imageSrc}
+                    />
+                  </Show>
+                </>
+              )}
+            </For>
           </div>
         </div>
       </div>
