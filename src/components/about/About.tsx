@@ -1,5 +1,6 @@
+import { Motion } from "@motionone/solid";
 import { Component, For } from "solid-js";
-import { WaveOne } from "~/assets";
+import { BlenderIcon, ReactIcon, WaveOne } from "~/assets";
 
 export const About: Component = () => {
   const careerInfo = [
@@ -52,6 +53,45 @@ export const About: Component = () => {
               Skills
             </h1>
             <div>
+              <Motion
+                style={{ display: "inline-block" }}
+                animate={{
+                  transform: [
+                    "rotate(-22.5deg)",
+                    "rotate(0deg)",
+                    "rotate(22.50deg)",
+                    "rotate(0deg)",
+                    "rotate(-22.5deg)",
+                  ],
+                }}
+                transition={{
+                  duration: 3,
+                  easing: "linear",
+                  repeat: Infinity,
+                }}
+              >
+                <BlenderIcon />
+              </Motion>
+              <Motion
+                style={{ display: "inline-block" }}
+                animate={{
+                  transform: [
+                    "rotate(-22.5deg)",
+                    "rotate(0deg)",
+                    "rotate(22.50deg)",
+                    "rotate(0deg)",
+                    "rotate(-22.5deg)",
+                  ],
+                }}
+                transition={{
+                  duration: 3,
+                  delay: 0.5,
+                  easing: "linear",
+                  repeat: Infinity,
+                }}
+              >
+                <ReactIcon />
+              </Motion>
               <ul>
                 <li>Blender</li>
                 <li>Arduino</li>
