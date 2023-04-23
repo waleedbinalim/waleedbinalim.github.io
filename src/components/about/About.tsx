@@ -26,28 +26,49 @@ export const About: Component = () => {
         <WaveOne />
       </div>
 
-      <h1 class="bg-gray-900 px-24 pb-14 text-center text-3xl font-bold text-slate-200 sm:px-36 sm:pb-24 sm:text-4xl">
-        WORK
-      </h1>
-
       <section class="bg-gray-900 px-14 pb-12 text-slate-200 sm:px-36">
-        <div class="grid text-left sm:grid-cols-2 sm:gap-24 sm:text-left">
-          <For each={careerInfo}>
-            {(company, i) => (
-              <div
-                class="mt pb-16 sm:h-full "
-                classList={{ ["sm:mt-32"]: (+i() + 1) % 2 === 0 }}
-              >
-                <p class="flex text-3xl font-bold sm:text-4xl">
-                  {company.company}
-                </p>
-                <p class="text-2xl font-semibold text-green-400">
-                  {company.position}
-                </p>
-                <p class="text-md text-slate-100">{company.time}</p>
-              </div>
-            )}
-          </For>
+        <div class="grid grid-cols-2 text-left sm:gap-16 sm:text-left">
+          <div>
+            <h1 class="pb-12 text-left text-3xl font-bold text-slate-200 sm:text-4xl">
+              WORK
+            </h1>
+            <For each={careerInfo}>
+              {(company) => (
+                <div class="pb-12">
+                  <p class="flex text-3xl font-bold sm:text-4xl">
+                    {company.company}
+                  </p>
+                  <p class="text-2xl font-semibold text-green-400">
+                    {company.position}
+                  </p>
+                  <p class="text-md text-slate-100">{company.time}</p>
+                </div>
+              )}
+            </For>
+          </div>
+
+          <div class="grid grid-cols-1 text-left sm:gap-16 sm:text-left">
+            <h1 class="text-left text-3xl font-bold text-slate-200 sm:text-4xl">
+              Skills
+            </h1>
+            <div>
+              <ul>
+                <li>Blender</li>
+                <li>Arduino</li>
+                <li>React</li>
+                <li>Framer Motion</li>
+                <li>MySQL</li>
+                <li>NextJS</li>
+                <li>Tailwind</li>
+                <li>Node</li>
+                <li>Mongo</li>
+                <li>Solid</li>
+                <li>Vue</li>
+                <li>Inkscape</li>
+                <li>TS</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
       <div>
