@@ -1,14 +1,18 @@
 import { Motion } from "@motionone/solid";
 import { Component, For } from "solid-js";
 import {
+  ArduinoIcon,
   BlenderIcon,
   FramerMotionIcon,
+  InkscapeIcon,
   MongoDBIcon,
+  MySQLIcon,
   NextJSIcon,
   NodeJSIcon,
   ReactIcon,
   SolidJSIcon,
   TailwindIcon,
+  TypeScriptIcon,
   VueIcon,
   WaveOne,
 } from "~/assets";
@@ -33,15 +37,19 @@ export const About: Component = () => {
   ];
 
   const logos = [
-    <BlenderIcon />,
+    <TypeScriptIcon />,
     <ReactIcon />,
     <FramerMotionIcon />,
     <NextJSIcon />,
     <TailwindIcon />,
     <NodeJSIcon />,
     <MongoDBIcon />,
-    <VueIcon />,
+    <BlenderIcon />,
     <SolidJSIcon />,
+    <VueIcon />,
+    <InkscapeIcon />,
+    <ArduinoIcon />,
+    <MySQLIcon />,
   ];
 
   return (
@@ -79,8 +87,18 @@ export const About: Component = () => {
               <For each={logos}>
                 {(logo, i) => (
                   <>
+                    <div
+                      id={`tooltip-skill-${i()}`}
+                      role="tooltip"
+                      class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700"
+                    >
+                      Tooltip content
+                      <div class="tooltip-arrow" data-popper-arrow></div>
+                    </div>
                     <Motion
                       class="px-1"
+                      data-tooltip-target={`tooltip-skill-${i()}`}
+                      data-tooltip-trigger="hover"
                       style={{ display: "inline-block" }}
                       animate={{
                         transform: [
@@ -103,13 +121,6 @@ export const About: Component = () => {
                   </>
                 )}
               </For>
-
-              <ul>
-                <li>Arduino</li>
-                <li>MySQL</li>
-                <li>Inkscape</li>
-                <li>TS</li>
-              </ul>
             </div>
           </div>
         </div>
