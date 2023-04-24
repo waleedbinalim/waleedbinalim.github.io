@@ -1,5 +1,5 @@
 // @refresh reload
-import { Suspense } from "solid-js";
+import { Suspense, onMount } from "solid-js";
 import {
   Body,
   ErrorBoundary,
@@ -14,8 +14,11 @@ import {
 import { CounterProvider } from "./contexts";
 import { NavLayout } from "./layouts";
 import "./root.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Root() {
+  onMount(() => AOS.init());
   return (
     <Html lang="en">
       <Head>

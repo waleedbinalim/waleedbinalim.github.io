@@ -8,6 +8,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "@types/aos": "^3.0.4",
     "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",
@@ -27,6 +28,7 @@
     "@motionone/solid": "^10.16.0",
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.2",
+    "aos": "^2.3.4",
     "solid-js": "^1.6.16",
     "solid-start": "^0.2.24",
     "solid-typer": "^0.0.3",

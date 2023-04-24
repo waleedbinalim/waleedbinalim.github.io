@@ -65,8 +65,13 @@ export const About: Component = () => {
               WORK
             </h1>
             <For each={careerInfo}>
-              {(company) => (
-                <div class="pb-12">
+              {(company, i) => (
+                <div
+                  class="pb-12"
+                  data-aos="fade-right"
+                  data-aos-delay={i() * 200}
+                  data-aos-once="true"
+                >
                   <p class="flex text-3xl font-bold sm:text-4xl">
                     {company.company}
                   </p>
