@@ -87,33 +87,22 @@ export const About: Component = () => {
               <For each={logos}>
                 {(logo, i) => (
                   <>
-                    <div
-                      id={`tooltip-skill-${i()}`}
-                      role="tooltip"
-                      class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700"
-                    >
-                      Tooltip content
-                      <div class="tooltip-arrow" data-popper-arrow></div>
-                    </div>
                     <Motion
                       class="px-1"
-                      data-tooltip-target={`tooltip-skill-${i()}`}
-                      data-tooltip-trigger="hover"
                       style={{ display: "inline-block" }}
                       animate={{
                         transform: [
-                          "rotate(0deg)",
-                          "rotate(0deg)",
                           "rotate(0deg)",
                           "rotate(22.50deg)",
                           "rotate(0deg)",
                         ],
                       }}
                       transition={{
-                        delay: i() * 0.25,
-                        duration: 2,
-                        easing: "linear",
                         repeat: Infinity,
+                        delay: i() * 0.25,
+                        duration: 3.5,
+                        easing: "linear",
+                        transform: { offset: [0, 0.1, 0.2] },
                       }}
                     >
                       {logo}
