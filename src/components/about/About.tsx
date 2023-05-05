@@ -88,7 +88,7 @@ export const About: Component = () => {
             <h1 class="text-left text-3xl font-bold text-slate-200 sm:text-4xl">
               Skills
             </h1>
-            <div>
+            <div class="flex flex-wrap justify-around">
               <For each={logos}>
                 {(logo, i) => (
                   <>

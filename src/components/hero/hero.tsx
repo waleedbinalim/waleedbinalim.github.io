@@ -5,8 +5,8 @@ import { imgUrls, socialsUrls } from "~/constants";
 
 export const Hero = () => {
   const heroSocials = [
-    { href: socialsUrls.linkedIn, icon: <LinkedInIcon /> },
-    { href: socialsUrls.github, icon: <GithubIcon /> },
+    { href: socialsUrls.linkedIn, icon: <LinkedInIcon />, title: "LinkedIn" },
+    { href: socialsUrls.github, icon: <GithubIcon />, title: "Github" },
   ];
 
   return (
@@ -43,7 +43,10 @@ export const Hero = () => {
               <div class="flex w-full justify-center pt-3">
                 <For each={heroSocials}>
                   {(item) => (
-                    <div class="cursor-pointer fill-green-400 px-1 opacity-50 hover:opacity-100 [&_path]:!fill-gray-200 [&_svg]:h-6 [&_svg]:w-6 xl:[&_svg]:h-8 xl:[&_svg]:w-8 ">
+                    <div
+                      class="cursor-pointer fill-green-400 px-1 opacity-50 hover:opacity-100 [&_path]:!fill-gray-200 [&_svg]:h-6 [&_svg]:w-6 xl:[&_svg]:h-8 xl:[&_svg]:w-8 "
+                      title={item.title}
+                    >
                       <a href={item.href} target="_blank">
                         {item.icon}
                       </a>
