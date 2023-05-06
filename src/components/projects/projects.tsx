@@ -5,13 +5,13 @@ import {
   ProjectsRemotebase,
 } from "./content";
 
+const projectsList = [
+  { title: "Pulse Plus", content: <ProjectsPulsePlus /> },
+  { title: "Remotebase", content: <ProjectsRemotebase /> },
+  { title: "Music Label Site", content: <ProjectsCryoChamber /> },
+];
 export const Projects: Component = () => {
   const [selected, setSelected] = createSignal<string>("Pulse Plus");
-  const projectsList = [
-    { title: "Pulse Plus", content: <ProjectsPulsePlus /> },
-    { title: "Remotebase", content: <ProjectsRemotebase /> },
-    { title: "Music Label Site", content: <ProjectsCryoChamber /> },
-  ];
 
   return (
     <>
@@ -42,7 +42,9 @@ export const Projects: Component = () => {
             <For each={projectsList}>
               {(e, i) => (
                 <>
-                  <Show when={selected() === e?.title}>{e.content}</Show>
+                  <Show when={selected() === e?.title}>
+                    <>{e.content}</>
+                  </Show>
                 </>
               )}
             </For>
