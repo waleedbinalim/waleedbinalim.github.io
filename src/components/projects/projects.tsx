@@ -1,34 +1,21 @@
 import { Component, For, Show, createSignal } from "solid-js";
-import { ProjectComponent } from "./project-component";
+import {
+  ProjectsCryoChamber,
+  ProjectsPulsePlus,
+  ProjectsRemotebase,
+} from "./content";
 
 export const Projects: Component = () => {
   const [selected, setSelected] = createSignal<string>("Pulse Plus");
   const projectsList = [
-    {
-      title: "Pulse Plus",
-      tags: ["D3", "NextJS", "XState", "NestJS"],
-      imageSrc: "https://www.pulse.plus/images/common/pulse_plus_box.png",
-      description: [
-        " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-      ],
-    },
-    {
-      title: "Remotebase",
-      tags: ["Amplify", "React", "GraphQL", "TypeScript"],
-      imageSrc: "",
-      description: [""],
-    },
-    {
-      title: "Weather App",
-      tags: ["JavaScript", "REST API", ""],
-      imageSrc: "",
-      description: [""],
-    },
+    { title: "Pulse Plus", content: <ProjectsPulsePlus /> },
+    { title: "Remotebase", content: <ProjectsRemotebase /> },
+    { title: "Music Label Site", content: <ProjectsCryoChamber /> },
   ];
 
   return (
     <>
-      <div class="w-100 relative isolate inline-block w-full bg-black after:absolute after:-inset-0 after:-top-8 after:-z-10 after:block after:min-h-[80px] after:-skew-y-3 after:bg-white after:content-['']">
+      <div class="w-100 relative isolate inline-block w-full bg-black pb-12 after:absolute after:-inset-0 after:-top-8 after:-z-10 after:block after:min-h-[80px] after:-skew-y-3 after:bg-white after:content-['']">
         <div class="mx-auto px-16 py-8 md:px-36">
           <div class="pb-12 text-4xl font-bold text-black">Projects</div>
 
@@ -55,14 +42,7 @@ export const Projects: Component = () => {
             <For each={projectsList}>
               {(e, i) => (
                 <>
-                  <Show when={selected() === e?.title}>
-                    <ProjectComponent
-                      title={e.title}
-                      tags={e.tags}
-                      desc={e.description}
-                      image={e.imageSrc}
-                    />
-                  </Show>
+                  <Show when={selected() === e?.title}>{e.content}</Show>
                 </>
               )}
             </For>
