@@ -1,8 +1,8 @@
 import { Component, For } from "solid-js";
+import { imgUrls } from "~/constants";
 
 const title = "Music Label Site";
 const tags = ["Sanity io", "NextJS", "Framer Motion", "Tanstack Query"];
-const image = "/images/cryochamber.png";
 
 export const ProjectsCryoChamber: Component = () => {
   return (
@@ -10,7 +10,11 @@ export const ProjectsCryoChamber: Component = () => {
       <>
         <div class="w-100 col-span-5 min-h-[344px] overflow-hidden rounded-3xl shadow-2xl md:col-span-4">
           <div class="w-100 h-36">
-            <img class="h-36 w-full object-contain" src={image} alt={title} />
+            <img
+              class="h-36 w-full object-contain"
+              src={imgUrls.projectsCryoChamber}
+              alt={title}
+            />
           </div>
           <div class="px-6 py-4">
             <div class="mb-2 text-xl font-extrabold">{title}</div>

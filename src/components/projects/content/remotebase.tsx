@@ -1,8 +1,8 @@
 import { Component, For } from "solid-js";
+import { imgUrls } from "~/constants";
 
 const title = "Remotebase";
 const tags = ["Amplify", "React", "GraphQL", "TypeScript"];
-const image = "/images/remotebase.png";
 
 export const ProjectsRemotebase: Component = () => {
   return (
@@ -12,7 +12,7 @@ export const ProjectsRemotebase: Component = () => {
           <div class="w-100 h-36">
             <img
               class="h-36 w-full object-contain"
-              src={image}
+              src={imgUrls.projectsRemotebase}
               alt={title}
               elementtiming={""}
               fetchpriority={"high"}

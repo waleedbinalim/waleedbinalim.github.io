@@ -1,8 +1,8 @@
 import { Component, For } from "solid-js";
+import { imgUrls } from "~/constants";
 
 const title = "Pulse Plus";
 const tags = ["D3", "NextJS", "XState", "NestJS"];
-const image = "/images/pulseplus.png";
 
 export const ProjectsPulsePlus: Component = () => {
   return (
@@ -12,7 +12,7 @@ export const ProjectsPulsePlus: Component = () => {
           <div class="w-100 h-36">
             <img
               class="h-36 w-full object-contain"
-              src={image}
+              src={imgUrls.projectsPulsePlus}
               alt={title}
               elementtiming={""}
               fetchpriority={"high"}
