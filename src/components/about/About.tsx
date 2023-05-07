@@ -88,13 +88,13 @@ export const About: Component = () => {
             <h1 class="text-left text-3xl font-bold text-slate-200 sm:text-4xl">
               Skills
             </h1>
-            <div class="flex flex-wrap justify-around">
+            <div class="flex flex-wrap justify-around pt-8 sm:pt-0">
               <For each={logos}>
                 {(logo, i) => (
                   <>
                     <Motion
-                      class="px-1"
-                      style={{ display: "inline-block" }}
+                      class="flex items-center justify-center sm:px-1 [&>svg]:h-12 [&>svg]:w-12 sm:[&>svg]:h-auto sm:[&>svg]:w-auto"
+                      // style={{ display: "inline-block" }}
                       animate={{
                         transform: [
                           "rotate(0deg)",
