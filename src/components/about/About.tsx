@@ -20,7 +20,12 @@ import {
 export const About: Component = () => {
   const careerInfo = [
     {
-      company: "CreativeMorph",
+      company: "Venture Studio",
+      position: "NextJS / React Developer",
+      time: "( 2021 - PRESENT )",
+    },
+    {
+      company: "RemoteBase",
       position: "NextJS / React Developer",
       time: "( 2021 - PRESENT )",
     },
@@ -84,7 +89,7 @@ export const About: Component = () => {
             </For>
           </div>
 
-          <div class="grid grid-cols-1 text-left sm:gap-16 sm:text-left">
+          <div class="leading-0 grid grid-cols-1 text-left sm:gap-16 sm:text-left">
             <h1 class="text-left text-3xl font-bold text-slate-200 sm:text-4xl">
               Skills
             </h1>

@@ -2,7 +2,7 @@ import { Component } from "solid-js";
 
 export const Contact: Component = () => {
   return (
-    <div class="py-18 sm:px-18 bg-black pt-24 md:px-28">
+    <div class="py-18 sm:px-18 bg-black px-28 pt-24">
       <div class="mb-8 text-center text-4xl font-bold text-white sm:text-left">
         Contact
       </div>
