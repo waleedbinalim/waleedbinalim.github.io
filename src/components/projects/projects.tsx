@@ -16,13 +16,13 @@ export const Projects: Component = () => {
   return (
     <>
       <div class="w-100 relative isolate inline-block w-full bg-black pb-12 after:absolute after:-inset-0 after:-top-8 after:-z-10 after:block after:min-h-[80px] after:-skew-y-3 after:bg-white after:content-['']">
-        <div class="mx-auto px-16 py-8 md:px-36">
+        <div class="mx-auto px-8 py-8 sm:px-16 md:px-36">
           <div class="pb-12 text-4xl font-bold text-black">Projects</div>
 
           <div class="grid gap-4 md:grid-cols-5 md:gap-8">
             <div class="col-span-5 md:col-span-1">
               <For each={projectsList}>
-                {(e, i) => (
+                {(e) => (
                   <>
                     <div
                       class="h-18 mb-2 rounded-xl bg-white p-4 text-center text-sm shadow-xl"
@@ -40,7 +40,7 @@ export const Projects: Component = () => {
             </div>
 
             <For each={projectsList}>
-              {(e, i) => (
+              {(e) => (
                 <>
                   <Show when={selected() === e?.title}>
                     <>{e.content}</>

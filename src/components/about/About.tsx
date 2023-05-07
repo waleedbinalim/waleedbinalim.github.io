@@ -58,8 +58,8 @@ export const About: Component = () => {
         <WaveOne />
       </div>
 
-      <section class="bg-gray-900 px-14 pb-12 text-slate-200 sm:px-36">
-        <div class="grid grid-cols-1 text-left sm:grid-cols-2 sm:gap-16 sm:text-left">
+      <section class="bg-gray-900 px-8 pb-12 text-slate-200 sm:px-36">
+        <div class="grid grid-cols-1 gap-4 text-left sm:grid-cols-2 sm:gap-16 sm:text-left">
           <div>
             <h1 class="pb-12 text-left text-3xl font-bold text-slate-200 sm:text-4xl">
               WORK

@@ -24,7 +24,8 @@ export const Navbar: Component = () => {
           </div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex flex-shrink-0 items-center text-white">
-              Logo Here?
+              {/* TODO ADD LOGO HERE WHEN POSSIBLE */}
+              {/* Logo Here? */}
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-4">
