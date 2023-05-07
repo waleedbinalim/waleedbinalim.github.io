@@ -2,10 +2,7 @@ import { Component, For } from "solid-js";
 
 const title = "Pulse Plus";
 const tags = ["D3", "NextJS", "XState", "NestJS"];
-const image = "https://www.pulse.plus/images/common/pulse_plus_box.png";
-const desc = [
-  " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-];
+const image = "/images/pulseplus.png";
 
 export const ProjectsPulsePlus: Component = () => {
   return (
@@ -24,19 +21,27 @@ export const ProjectsPulsePlus: Component = () => {
           <div class="px-6 py-4">
             <div class="mb-2 text-xl font-extrabold">{title}</div>
             <p class="text-base text-gray-700">
-              {" "}
-              A HealthTech app created under{" "}
-              <a
-                href="https://venture.studio/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Venture Studio
-              </a>{" "}
-              organization. Combines wearable data from a range of devices such
-              as (Fitbit, Apple Watch, Oura etc). In addition ships at-home
-              self-test health kits on a quarterly basis providing insights into
-              multiple health metrics into ones health
+              <span class="block">
+                {" "}
+                A HealthTech app created under{" "}
+                <a
+                  href="https://venture.studio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Venture Studio
+                </a>{" "}
+                organization. Combines wearable data from a range of devices
+                such as (Fitbit, Apple Watch, Oura etc).
+              </span>
+              <br />
+              <span class="block">
+                Pulse Plus is a platform to provide continuous at-home total
+                health monitoring by connecting these devices PLUS the health
+                data from selt testing at-home testkits as a subscription thus
+                providing unprecedented insight to your health and fitness
+                journey.
+              </span>
             </p>
 
             <a

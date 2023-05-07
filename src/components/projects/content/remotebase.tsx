@@ -2,7 +2,7 @@ import { Component, For } from "solid-js";
 
 const title = "Remotebase";
 const tags = ["Amplify", "React", "GraphQL", "TypeScript"];
-const image = "";
+const image = "/images/remotebase.png";
 
 export const ProjectsRemotebase: Component = () => {
   return (
@@ -21,9 +21,24 @@ export const ProjectsRemotebase: Component = () => {
           <div class="px-6 py-4">
             <div class="mb-2 text-xl font-extrabold">{title}</div>
             <p class="text-base text-gray-700">
-              Platform developed for the organization remoteBase for changing
-              the hiring process for engineers in Pakistan. Worked alongside a
-              team of engineers
+              <span class="block">
+                Platform developed in collaboration alongside a team of remote
+                engineers. Remotebase, the leading tech start-up of Pakistan,
+                creates a solution to lack of transparency and communication
+                lags during job hiring.
+              </span>
+              <br />
+              {/*  */}
+              <span>
+                This is an automated hiring process application! Now one can, at
+                their OWN pace and convenience, take tests as per their domain
+                be a part of the hiring process at Remotebase! With full
+                transparency and no time constraints.
+              </span>
+              {/*  */}
+              {/*  */}
+              {/*  */}
+              {/*  */}
             </p>
 
             <a
