@@ -8,7 +8,7 @@ export const ProjectsRemotebase: Component = () => {
   return (
     <>
       <>
-        <div class="w-100 col-span-5 min-h-[344px] overflow-hidden rounded-3xl shadow-2xl md:col-span-4">
+        <div class="w-100 col-span-5 min-h-[344px] overflow-hidden rounded-3xl shadow-2xl annoying-bp:col-span-4">
           <div class="w-100 h-36">
             <img
               class="h-36 w-full object-contain"
@@ -57,7 +57,7 @@ export const ProjectsRemotebase: Component = () => {
             <For each={tags}>
               {(tag) => {
                 return (
-                  <span class="mb-2 mr-2 inline-block rounded-full bg-green-300 px-3 py-1 text-xs font-semibold text-gray-800 md:text-sm">
+                  <span class="md:text-sm mb-2 mr-2 inline-block rounded-full bg-green-300 px-3 py-1 text-xs font-semibold text-gray-800">
                     {tag}
                   </span>
                 );
