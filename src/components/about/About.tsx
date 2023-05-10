@@ -89,7 +89,7 @@ export const About: Component = () => {
             </For>
           </div>
 
-          <div class="leading-0 grid grid-cols-1 text-left sm:gap-16 sm:text-left">
+          <div class="leading-0 flex flex-col text-left sm:gap-16 sm:text-left">
             <h1 class="text-left text-3xl font-bold text-slate-200 sm:text-4xl">
               Skills
             </h1>
@@ -98,7 +98,10 @@ export const About: Component = () => {
                 {(logo, i) => (
                   <>
                     <Motion
-                      class="flex items-center justify-center sm:px-1 [&>svg]:h-12 [&>svg]:w-12 sm:[&>svg]:h-auto sm:[&>svg]:w-auto"
+                      class="m-2 flex items-center justify-center 
+                      sm:px-1 [&>svg]:h-12 [&>svg]:w-12 sm:[&>svg]:h-auto sm:[&>svg]:w-auto 
+                      annoying-bp:[&>svg]:h-16 annoying-bp:[&>svg]:w-16
+                      lg:[&>svg]:h-24 lg:[&>svg]:w-24"
                       // style={{ display: "inline-block" }}
                       animate={{
                         transform: [
