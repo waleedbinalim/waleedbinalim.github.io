@@ -11,8 +11,8 @@ export const Hero = () => {
 
   return (
     <>
-      <section class="w-100 bg-black">
-        <div class="w-100 align-center grid min-w-full items-center justify-center px-36 py-8 pt-20 text-white sm:grid-cols-2 xl:px-60">
+      <section class="w-100 pt-18 bg-black sm:pt-24">
+        <div class="w-100 align-center grid min-w-full items-center justify-center px-28 py-8 pt-20 text-white sm:grid-cols-2 xl:px-60">
           <div class="w-100 text-center md:text-left">
             <p class="text-2xl font-semibold xl:pb-2 xl:text-5xl">
               Hi, I'm{" "}

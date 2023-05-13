@@ -20,7 +20,12 @@ import {
 export const About: Component = () => {
   const careerInfo = [
     {
-      company: "CreativeMorph",
+      company: "Venture Studio",
+      position: "NextJS / React Developer",
+      time: "( 2021 - PRESENT )",
+    },
+    {
+      company: "RemoteBase",
       position: "NextJS / React Developer",
       time: "( 2021 - PRESENT )",
     },
@@ -58,11 +63,11 @@ export const About: Component = () => {
         <WaveOne />
       </div>
 
-      <section class="bg-gray-900 px-14 pb-12 text-slate-200 sm:px-36">
-        <div class="grid grid-cols-1 text-left sm:grid-cols-2 sm:gap-16 sm:text-left">
+      <section class="bg-gray-900 px-8 pb-12 text-slate-200 sm:px-28">
+        <div class="grid grid-cols-1 gap-4 text-left sm:grid-cols-2 sm:gap-16 sm:text-left">
           <div>
             <h1 class="pb-12 text-left text-3xl font-bold text-slate-200 sm:text-4xl">
-              WORK
+              Work
             </h1>
             <For each={careerInfo}>
               {(company, i) => (
@@ -84,17 +89,20 @@ export const About: Component = () => {
             </For>
           </div>
 
-          <div class="grid grid-cols-1 text-left sm:gap-16 sm:text-left">
+          <div class="leading-0 flex flex-col text-left sm:gap-16 sm:text-left">
             <h1 class="text-left text-3xl font-bold text-slate-200 sm:text-4xl">
               Skills
             </h1>
-            <div class="flex flex-wrap justify-around">
+            <div class="flex flex-wrap justify-around pt-8 sm:pt-0">
               <For each={logos}>
                 {(logo, i) => (
                   <>
                     <Motion
-                      class="px-1"
-                      style={{ display: "inline-block" }}
+                      class="m-2 flex items-center justify-center 
+                      sm:px-1 [&>svg]:h-12 [&>svg]:w-12 sm:[&>svg]:h-auto sm:[&>svg]:w-auto 
+                      annoying-bp:[&>svg]:h-16 annoying-bp:[&>svg]:w-16
+                      lg:[&>svg]:h-24 lg:[&>svg]:w-24"
+                      // style={{ display: "inline-block" }}
                       animate={{
                         transform: [
                           "rotate(0deg)",
