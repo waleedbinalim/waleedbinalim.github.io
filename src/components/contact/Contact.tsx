@@ -1,43 +1,43 @@
 import { Component } from "solid-js";
+import { createServerAction$, createServerData$ } from "solid-start/server";
 
 export const Contact: Component = () => {
   let email: HTMLInputElement | undefined;
   let message: HTMLTextAreaElement | undefined;
+
+  const [acting, { Form }] = createServerAction$(async (form: FormData) => {
+    const email = form.get("email") as string;
+    const message = form.get("message") as string;
+
+    try {
+      await fetch(process.env.SOLID_APP_CRAP || "", {
+        method: "POST",
+        mode: "no-cors",
+        cache: "no-cache",
+        headers: { "Content-Type": "application/json" },
+        redirect: "follow",
+        referrerPolicy: "no-referrer",
+        body: JSON.stringify({ email, message }),
+      });
+      return "IT WORKED";
+    } catch (err) {
+      return "IT DIDN'T WORK";
+    }
+  });
 
   return (
     <div class="py-18 sm:px-18 bg-black px-28 pt-24">
       <div class="mb-8 text-center text-4xl font-bold text-white sm:text-left">
         Contact
       </div>
-      <form
-        class="w-70 px-8 pb-24 sm:w-80 sm:px-0"
-        onSubmit={async (e) => {
-          e.preventDefault();
-          console.log(email?.value);
-          console.log(message?.value);
-          const response = await fetch(import.meta.env.VITE_GOOGLE_SHEETS_API, {
-            method: "POST",
-            mode: "no-cors",
-            cache: "no-cache",
-            headers: { "Content-Type": "application/json" },
-            redirect: "follow",
-            referrerPolicy: "no-referrer",
-            body: JSON.stringify({
-              email: email?.value,
-              message: message?.value,
-            }),
-          });
-
-          console.log(response.json());
-        }}
-      >
+      <Form class="w-70 px-8 pb-24 sm:w-80 sm:px-0">
         <div class="mb-6">
           <label for="email" class="mb-2 text-sm font-medium text-white">
             Email
           </label>
           <input
             ref={email}
-            type="email"
+            name="email"
             id="email"
             class="block w-full rounded-lg border border-gray-600 bg-gray-100 p-2.5 text-sm  placeholder-gray-400 outline-none"
             placeholder="email@domain.com"
@@ -50,7 +50,7 @@ export const Contact: Component = () => {
           </label>
           <textarea
             ref={message}
-            id="message"
+            name="message"
             class="block w-full rounded-lg border border-gray-600 bg-gray-100 p-2.5 text-sm placeholder-gray-400 outline-none"
             required
           />
@@ -61,7 +61,7 @@ export const Contact: Component = () => {
         >
           Submit
         </button>
-      </form>
+      </Form>
     </div>
   );
 };
