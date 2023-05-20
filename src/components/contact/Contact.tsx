@@ -11,11 +11,24 @@ export const Contact: Component = () => {
       </div>
       <form
         class="w-70 px-8 pb-24 sm:w-80 sm:px-0"
-        onSubmit={(e) => {
+        onSubmit={async (e) => {
           e.preventDefault();
-          console.log(e);
           console.log(email?.value);
           console.log(message?.value);
+          const response = await fetch(import.meta.env.VITE_GOOGLE_SHEETS_API, {
+            method: "POST",
+            mode: "no-cors",
+            cache: "no-cache",
+            headers: { "Content-Type": "application/json" },
+            redirect: "follow",
+            referrerPolicy: "no-referrer",
+            body: JSON.stringify({
+              email: email?.value,
+              message: message?.value,
+            }),
+          });
+
+          console.log(response.json());
         }}
       >
         <div class="mb-6">
