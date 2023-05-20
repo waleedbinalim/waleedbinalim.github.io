@@ -1,0 +1,75 @@
+{
+  "/*404": [
+    {
+      "type": "script",
+      "href": "/solid-js-practice/assets/_...404_-83768528.js"
+    },
+    {
+      "type": "script",
+      "href": "/solid-js-practice/assets/entry-client-c66bb806.js"
+    },
+    {
+      "type": "style",
+      "href": "/solid-js-practice/assets/entry-client-a74b0906.css"
+    },
+    {
+      "type": "script",
+      "href": "/solid-js-practice/assets/routes-67860d94.js"
+    }
+  ],
+  "/about/": [
+    {
+      "type": "script",
+      "href": "/solid-js-practice/assets/index-cbd76419.js"
+    },
+    {
+      "type": "script",
+      "href": "/solid-js-practice/assets/entry-client-c66bb806.js"
+    },
+    {
+      "type": "style",
+      "href": "/solid-js-practice/assets/entry-client-a74b0906.css"
+    },
+    {
+      "type": "script",
+      "href": "/solid-js-practice/assets/Contact-39d0211c.js"
+    },
+    {
+      "type": "script",
+      "href": "/solid-js-practice/assets/routes-67860d94.js"
+    }
+  ],
+  "/": [
+    {
+      "type": "script",
+      "href": "/solid-js-practice/assets/index-3a8a06fb.js"
+    },
+    {
+      "type": "script",
+      "href": "/solid-js-practice/assets/entry-client-c66bb806.js"
+    },
+    {
+      "type": "style",
+      "href": "/solid-js-practice/assets/entry-client-a74b0906.css"
+    },
+    {
+      "type": "script",
+      "href": "/solid-js-practice/assets/Contact-39d0211c.js"
+    },
+    {
+      "type": "script",
+      "href": "/solid-js-practice/assets/routes-67860d94.js"
+    }
+  ],
+  "entry-client": [
+    {
+      "type": "script",
+      "href": "/solid-js-practice/assets/entry-client-c66bb806.js"
+    },
+    {
+      "type": "style",
+      "href": "/solid-js-practice/assets/entry-client-a74b0906.css"
+    }
+  ],
+  "index.html": []
+}
