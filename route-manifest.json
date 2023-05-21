@@ -2,11 +2,11 @@
   "/*404": [
     {
       "type": "script",
-      "href": "/waleedbinalim.github.io/assets/_...404_-c3b1067a.js"
+      "href": "/waleedbinalim.github.io/assets/_...404_-00c2a7b9.js"
     },
     {
       "type": "script",
-      "href": "/waleedbinalim.github.io/assets/entry-client-c1f9354b.js"
+      "href": "/waleedbinalim.github.io/assets/entry-client-fc9feab3.js"
     },
     {
       "type": "style",
@@ -14,17 +14,17 @@
     },
     {
       "type": "script",
-      "href": "/waleedbinalim.github.io/assets/routes-35b5d381.js"
+      "href": "/waleedbinalim.github.io/assets/routes-cd4b6947.js"
     }
   ],
   "/about/": [
     {
       "type": "script",
-      "href": "/waleedbinalim.github.io/assets/index-4cd38a94.js"
+      "href": "/waleedbinalim.github.io/assets/index-e9095cc4.js"
     },
     {
       "type": "script",
-      "href": "/waleedbinalim.github.io/assets/entry-client-c1f9354b.js"
+      "href": "/waleedbinalim.github.io/assets/entry-client-fc9feab3.js"
     },
     {
       "type": "style",
@@ -32,21 +32,21 @@
     },
     {
       "type": "script",
-      "href": "/waleedbinalim.github.io/assets/Contact-37fde6d8.js"
+      "href": "/waleedbinalim.github.io/assets/Contact-5571e084.js"
     },
     {
       "type": "script",
-      "href": "/waleedbinalim.github.io/assets/routes-35b5d381.js"
+      "href": "/waleedbinalim.github.io/assets/routes-cd4b6947.js"
     }
   ],
   "/": [
     {
       "type": "script",
-      "href": "/waleedbinalim.github.io/assets/index-dee7add1.js"
+      "href": "/waleedbinalim.github.io/assets/index-3d8b6687.js"
     },
     {
       "type": "script",
-      "href": "/waleedbinalim.github.io/assets/entry-client-c1f9354b.js"
+      "href": "/waleedbinalim.github.io/assets/entry-client-fc9feab3.js"
     },
     {
       "type": "style",
@@ -54,17 +54,17 @@
     },
     {
       "type": "script",
-      "href": "/waleedbinalim.github.io/assets/Contact-37fde6d8.js"
+      "href": "/waleedbinalim.github.io/assets/Contact-5571e084.js"
     },
     {
       "type": "script",
-      "href": "/waleedbinalim.github.io/assets/routes-35b5d381.js"
+      "href": "/waleedbinalim.github.io/assets/routes-cd4b6947.js"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/waleedbinalim.github.io/assets/entry-client-c1f9354b.js"
+      "href": "/waleedbinalim.github.io/assets/entry-client-fc9feab3.js"
     },
     {
       "type": "style",
