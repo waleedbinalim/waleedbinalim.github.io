@@ -1,6 +1,5 @@
 export const imgUrls = {
-  heroAvatar: "/images/hero-avatar.PNG",
-  heroAvatarJpg: "/images/hero-avatar.jpg",
+  heroAvatar: "/images/hero-avatar.png",
 
   // projects
   projectsPulsePlus: "/images/projects/pulseplus.png",

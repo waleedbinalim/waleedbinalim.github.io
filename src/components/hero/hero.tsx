@@ -62,7 +62,7 @@ export const Hero = () => {
             <div class="absolute inset-0 h-full w-[200px] rotate-6 rounded-xl bg-green-400 drop-shadow-xl sm:h-80 sm:w-[300px] xl:h-full xl:w-[400px]" />
             <img
               class="absolute inset-0 h-full w-[200px] rounded-xl border-2 border-green-400 drop-shadow-xl sm:w-auto xl:h-full"
-              src={imgUrls.heroAvatarJpg}
+              src={imgUrls.heroAvatar}
               alt="waleed-avatar"
             />
           </div>
