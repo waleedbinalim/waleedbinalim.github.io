@@ -14,13 +14,17 @@ export const Contact: Component = () => {
         method: "POST",
         mode: "no-cors",
         cache: "no-cache",
-        headers: { "Content-Type": "application/json" },
+        headers: { 
+          "Content-Type": "application/json", 
+          "X-Auth-Token": process.env.SOLID_APP_API_TOKEN || "" 
+        },
         redirect: "follow",
         referrerPolicy: "no-referrer",
         body: JSON.stringify({ email, message }),
       });
       return "IT WORKED";
     } catch (err) {
+      console.log("IT DIDN'T WORK")
       return "IT DIDN'T WORK";
     }
   });
