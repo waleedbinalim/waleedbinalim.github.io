@@ -25,6 +25,7 @@ export const Contact: Component = () => {
       return "IT WORKED";
     } catch (err) {
       console.log("IT DIDN'T WORK")
+      console.log(err)
       return "IT DIDN'T WORK";
     }
   });
