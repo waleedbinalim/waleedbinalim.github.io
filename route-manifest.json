@@ -2,73 +2,73 @@
   "/*404": [
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/_...404_-6dccab59.js"
+      "href": "/waleedbinalim.github.io/assets/_...404_-c3b1067a.js"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/entry-client-07684f50.js"
+      "href": "/waleedbinalim.github.io/assets/entry-client-c1f9354b.js"
     },
     {
       "type": "style",
-      "href": "/solid-js-practice/assets/entry-client-a74b0906.css"
+      "href": "/waleedbinalim.github.io/assets/entry-client-a74b0906.css"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/routes-e6eee641.js"
+      "href": "/waleedbinalim.github.io/assets/routes-35b5d381.js"
     }
   ],
   "/about/": [
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/index-f5f33dfb.js"
+      "href": "/waleedbinalim.github.io/assets/index-4cd38a94.js"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/entry-client-07684f50.js"
+      "href": "/waleedbinalim.github.io/assets/entry-client-c1f9354b.js"
     },
     {
       "type": "style",
-      "href": "/solid-js-practice/assets/entry-client-a74b0906.css"
+      "href": "/waleedbinalim.github.io/assets/entry-client-a74b0906.css"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/Contact-473ad2f6.js"
+      "href": "/waleedbinalim.github.io/assets/Contact-37fde6d8.js"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/routes-e6eee641.js"
+      "href": "/waleedbinalim.github.io/assets/routes-35b5d381.js"
     }
   ],
   "/": [
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/index-d5d2e660.js"
+      "href": "/waleedbinalim.github.io/assets/index-dee7add1.js"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/entry-client-07684f50.js"
+      "href": "/waleedbinalim.github.io/assets/entry-client-c1f9354b.js"
     },
     {
       "type": "style",
-      "href": "/solid-js-practice/assets/entry-client-a74b0906.css"
+      "href": "/waleedbinalim.github.io/assets/entry-client-a74b0906.css"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/Contact-473ad2f6.js"
+      "href": "/waleedbinalim.github.io/assets/Contact-37fde6d8.js"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/routes-e6eee641.js"
+      "href": "/waleedbinalim.github.io/assets/routes-35b5d381.js"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/entry-client-07684f50.js"
+      "href": "/waleedbinalim.github.io/assets/entry-client-c1f9354b.js"
     },
     {
       "type": "style",
-      "href": "/solid-js-practice/assets/entry-client-a74b0906.css"
+      "href": "/waleedbinalim.github.io/assets/entry-client-a74b0906.css"
     }
   ],
   "index.html": []
