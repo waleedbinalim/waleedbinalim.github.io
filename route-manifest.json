@@ -2,11 +2,11 @@
   "/*404": [
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/_...404_-83768528.js"
+      "href": "/solid-js-practice/assets/_...404_-8fd4e360.js"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/entry-client-c66bb806.js"
+      "href": "/solid-js-practice/assets/entry-client-dec55174.js"
     },
     {
       "type": "style",
@@ -14,17 +14,17 @@
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/routes-67860d94.js"
+      "href": "/solid-js-practice/assets/routes-2f69f61c.js"
     }
   ],
   "/about/": [
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/index-cbd76419.js"
+      "href": "/solid-js-practice/assets/index-7e264c09.js"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/entry-client-c66bb806.js"
+      "href": "/solid-js-practice/assets/entry-client-dec55174.js"
     },
     {
       "type": "style",
@@ -32,21 +32,21 @@
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/Contact-39d0211c.js"
+      "href": "/solid-js-practice/assets/Contact-af0ca2c0.js"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/routes-67860d94.js"
+      "href": "/solid-js-practice/assets/routes-2f69f61c.js"
     }
   ],
   "/": [
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/index-3a8a06fb.js"
+      "href": "/solid-js-practice/assets/index-16d4702c.js"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/entry-client-c66bb806.js"
+      "href": "/solid-js-practice/assets/entry-client-dec55174.js"
     },
     {
       "type": "style",
@@ -54,17 +54,17 @@
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/Contact-39d0211c.js"
+      "href": "/solid-js-practice/assets/Contact-af0ca2c0.js"
     },
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/routes-67860d94.js"
+      "href": "/solid-js-practice/assets/routes-2f69f61c.js"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/solid-js-practice/assets/entry-client-c66bb806.js"
+      "href": "/solid-js-practice/assets/entry-client-dec55174.js"
     },
     {
       "type": "style",
