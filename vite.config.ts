@@ -4,6 +4,6 @@ import { defineConfig } from "vite";
 import staticAdapter from "solid-start-static";
 
 export default defineConfig({
-  base: "/waleedbinalim.github.io/",
+  base: "/solid-js-practice/",
   plugins: [solid({ adapter: staticAdapter() }), solidSvg()],
 });
