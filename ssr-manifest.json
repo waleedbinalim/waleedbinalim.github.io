@@ -6,154 +6,154 @@
   "\u0000vite/preload-helper": [
   ],
   "node_modules/@motionone/animation/dist/Animation.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/animation/dist/utils/easing.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/animate-style.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/data.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/style.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/utils/css-var.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/utils/easing.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/utils/feature-detection.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/utils/get-style-name.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/utils/get-unit.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/utils/keyframes.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/utils/options.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/utils/stop-animation.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/utils/style-object.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/animate/utils/transforms.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/gestures/in-view.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/state/gestures/hover.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/state/gestures/in-view.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/state/gestures/press.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/state/index.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/state/utils/events.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/state/utils/has-changed.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/state/utils/is-variant.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/state/utils/resolve-variant.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/state/utils/schedule.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/dom/dist/utils/resolve-elements.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/easing/dist/cubic-bezier.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/easing/dist/steps.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/solid/dist/source/motion.jsx": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/solid/dist/source/presence.jsx": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/solid/dist/source/primitives.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/types/dist/MotionValue.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/array.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/clamp.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/defaults.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/easing.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/interpolate.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/is-cubic-bezier.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/is-easing-generator.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/is-easing-list.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/is-function.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/is-number.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/is-string.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/mix.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/noop.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/offset.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/progress.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/time.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@motionone/utils/dist/wrap.es.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@solid-primitives/props/dist/index.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/@solidjs/meta/dist/index.jsx": [
   ],
@@ -176,13 +176,13 @@
   "node_modules/solid-js/web/dist/web.js": [
   ],
   "node_modules/solid-start/data/Form.tsx": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/solid-start/data/FormError.tsx": [
-    "/solid-js-practice/assets/routes-2f69f61c.js"
+    "/solid-js-practice/assets/routes-e6eee641.js"
   ],
   "node_modules/solid-start/data/createRouteAction.tsx": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "node_modules/solid-start/data/createRouteData.tsx": [
   ],
@@ -203,112 +203,112 @@
   "node_modules/solid-start/server/ServerContext.tsx": [
   ],
   "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
-    "/solid-js-practice/assets/_...404_-8fd4e360.js"
+    "/solid-js-practice/assets/_...404_-6dccab59.js"
   ],
   "node_modules/solid-start/server/responses.ts": [
-    "/solid-js-practice/assets/routes-2f69f61c.js"
+    "/solid-js-practice/assets/routes-e6eee641.js"
   ],
   "node_modules/solid-start/server/server-functions/browser.ts": [
-    "/solid-js-practice/assets/routes-2f69f61c.js"
+    "/solid-js-practice/assets/routes-e6eee641.js"
   ],
   "node_modules/solid-start/server/types.tsx": [
   ],
   "node_modules/solid-typer/dist/SolidTyper.jsx": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "node_modules/tslib/tslib.es6.js": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "src/assets/skill-logos/arduino.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/skill-logos/blender.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/skill-logos/framer-motion.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/skill-logos/inkscape.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/skill-logos/mongo.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/skill-logos/mysql.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/skill-logos/nextjs-logo.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/skill-logos/node.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/skill-logos/react.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/skill-logos/solid.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/skill-logos/tailwind.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/skill-logos/typescript.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/skill-logos/vue.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/social-icons/github.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/social-icons/linked-in.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/assets/waves/wave-1.svg": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/components/about/About.tsx": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/components/contact/Contact.tsx": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "src/components/counter/Counter.tsx": [
-    "/solid-js-practice/assets/index-7e264c09.js"
+    "/solid-js-practice/assets/index-f5f33dfb.js"
   ],
   "src/components/hero/hero.tsx": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/components/navbar/navbar.tsx": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "src/components/projects/content/cryochamber.tsx": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "src/components/projects/content/pulse-plus.tsx": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "src/components/projects/content/remotebase.tsx": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "src/components/projects/projects.tsx": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "src/constants/img-urls.ts": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "src/constants/navbar.ts": [
-    "/solid-js-practice/assets/Contact-af0ca2c0.js"
+    "/solid-js-practice/assets/Contact-473ad2f6.js"
   ],
   "src/constants/socials.ts": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ],
   "src/contexts/counter/counter-store.tsx": [
   ],
   "src/entry-client.tsx": [
   ],
   "src/enums/routes.ts": [
-    "/solid-js-practice/assets/routes-2f69f61c.js"
+    "/solid-js-practice/assets/routes-e6eee641.js"
   ],
   "src/layouts/nav-layout/nav-layout.tsx": [
   ],
@@ -317,12 +317,12 @@
   "src/root.tsx": [
   ],
   "src/routes/[...404].tsx": [
-    "/solid-js-practice/assets/_...404_-8fd4e360.js"
+    "/solid-js-practice/assets/_...404_-6dccab59.js"
   ],
   "src/routes/about/index.tsx": [
-    "/solid-js-practice/assets/index-7e264c09.js"
+    "/solid-js-practice/assets/index-f5f33dfb.js"
   ],
   "src/routes/index.tsx": [
-    "/solid-js-practice/assets/index-16d4702c.js"
+    "/solid-js-practice/assets/index-d5d2e660.js"
   ]
 }
