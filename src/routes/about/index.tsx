@@ -7,6 +7,7 @@ export const Apple = () => {
     <main>
       <Title>About</Title>
       <Counter />
+      <Counter />
       <p class="text-xl font-bold">
         Go back home{" "}
         <span class="text-blue-500 underline">
