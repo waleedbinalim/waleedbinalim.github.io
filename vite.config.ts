@@ -8,3 +8,4 @@ export default defineConfig({
   base: "/waleedbinalim.github.io/",
   plugins: [solid({ adapter: staticAdapter() }), solidSvg()],
 });
+// Please work
