@@ -2,6 +2,7 @@ import { For } from "solid-js";
 import { SolidTyper } from "solid-typer";
 import { GithubIcon, LinkedInIcon } from "~/assets";
 import { imgUrls, socialsUrls } from "~/constants";
+import { externalUrls } from "~/constants/external-urls";
 
 export const Hero = () => {
   const heroSocials = [
@@ -37,9 +38,11 @@ export const Hero = () => {
             </p>
 
             <div class="md:pb-none pb-8 md:min-w-[140px] md:max-w-[170px] xl:max-w-[250px]">
-              <button class="w-[200px] rounded-full border-2 border-green-400 px-4 py-2 font-bold text-green-400 transition-colors hover:bg-green-400 hover:text-gray-800 md:w-full xl:text-2xl">
-                View Resume
-              </button>
+              <a href={externalUrls.resume} target="_blank">
+                <button class="w-[200px] rounded-full border-2 border-green-400 px-4 py-2 font-bold text-green-400 transition-colors hover:bg-green-400 hover:text-gray-800 md:w-full xl:text-2xl">
+                  View Resume
+                </button>
+              </a>
               <div class="flex w-full justify-center pt-3">
                 <For each={heroSocials}>
                   {(item) => (
