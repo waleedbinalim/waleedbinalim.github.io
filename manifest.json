@@ -1,13 +1,13 @@
 {
-  "_Contact-8993a19d.js": {
-    "file": "assets/Contact-8993a19d.js",
+  "_Contact-1de30950.js": {
+    "file": "assets/Contact-1de30950.js",
     "imports": [
       "src/entry-client.tsx",
-      "_routes-e2531e92.js"
+      "_routes-2c6bfc0e.js"
     ]
   },
-  "_routes-e2531e92.js": {
-    "file": "assets/routes-e2531e92.js",
+  "_routes-2c6bfc0e.js": {
+    "file": "assets/routes-2c6bfc0e.js",
     "imports": [
       "src/entry-client.tsx"
     ]
@@ -25,35 +25,35 @@
       "src/routes/index.tsx",
       "src/routes/about/index.tsx"
     ],
-    "file": "assets/entry-client-71b0717c.js",
+    "file": "assets/entry-client-36655e44.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404].tsx": {
-    "file": "assets/_...404_-7bd3aa6c.js",
+    "file": "assets/_...404_-30105ac0.js",
     "imports": [
       "src/entry-client.tsx",
-      "_routes-e2531e92.js"
+      "_routes-2c6bfc0e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/[...404].tsx"
   },
   "src/routes/about/index.tsx": {
-    "file": "assets/index-4e0ae90b.js",
+    "file": "assets/index-3dd322a0.js",
     "imports": [
       "src/entry-client.tsx",
-      "_Contact-8993a19d.js",
-      "_routes-e2531e92.js"
+      "_Contact-1de30950.js",
+      "_routes-2c6bfc0e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/about/index.tsx"
   },
   "src/routes/index.tsx": {
-    "file": "assets/index-7435afa8.js",
+    "file": "assets/index-4a278b2f.js",
     "imports": [
       "src/entry-client.tsx",
-      "_Contact-8993a19d.js",
-      "_routes-e2531e92.js"
+      "_Contact-1de30950.js",
+      "_routes-2c6bfc0e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/index.tsx"
