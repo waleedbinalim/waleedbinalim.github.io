@@ -3,4 +3,5 @@ export enum PageRoutes {
   About = "/about",
   Projects = "/projects",
   Contact = "/contacts",
+  Bonus = "/bonus",
 }
