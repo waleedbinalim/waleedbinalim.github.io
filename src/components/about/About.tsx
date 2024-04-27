@@ -20,9 +20,19 @@ import {
 export const About: Component = () => {
   const careerInfo = [
     {
+      company: "Gridware",
+      position: "Software Developer",
+      time: "( 2023 - PRESENT )",
+    },
+    {
+      company: "Talently AI",
+      position: "Fullstack Engineer",
+      time: "( 2023 )",
+    },
+    {
       company: "Venture Studio",
       position: "NextJS / React Developer",
-      time: "( 2021 - PRESENT )",
+      time: "( 2021 - 2023 )",
     },
     {
       company: "RemoteBase",
@@ -34,11 +44,11 @@ export const About: Component = () => {
       position: "Intern",
       time: "( Summer 2019 )",
     },
-    {
-      company: "Hussain Mills Ltd.",
-      position: "Trainee Electrical Engineer",
-      time: "( Summer 2018 )",
-    },
+    // {
+    //   company: "Hussain Mills Ltd.",
+    //   position: "Trainee Electrical Engineer",
+    //   time: "( Summer 2018 )",
+    // },
   ];
 
   const logos = [
