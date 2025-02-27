@@ -28,7 +28,7 @@
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.2",
     "aos": "^2.3.4",
-    "solid-js": "^1.7.5",
+    "solid-js": "^1.9.4",
     "solid-start": "^0.2.26",
     "solid-start-static": "^0.2.26",
     "solid-typer": "^0.0.3",
