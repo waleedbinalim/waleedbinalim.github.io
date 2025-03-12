@@ -1,6 +1,6 @@
 {
-  "_Contact-425ba820.js": {
-    "file": "assets/Contact-425ba820.js",
+  "_Contact-8af5679e.js": {
+    "file": "assets/Contact-8af5679e.js",
     "imports": [
       "src/entry-client.tsx",
       "_routes-b910af9e.js"
@@ -22,12 +22,12 @@
       "src/routes/index.tsx",
       "src/routes/bonus/index.tsx"
     ],
-    "file": "assets/entry-client-3474d74d.js",
+    "file": "assets/entry-client-626f711b.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404].tsx": {
-    "file": "assets/_...404_-a2415200.js",
+    "file": "assets/_...404_-f3e6e16e.js",
     "imports": [
       "src/entry-client.tsx",
       "_routes-b910af9e.js"
@@ -36,20 +36,20 @@
     "src": "src/routes/[...404].tsx"
   },
   "src/routes/bonus/index.tsx": {
-    "file": "assets/index-211ee53c.js",
+    "file": "assets/index-ab51991b.js",
     "imports": [
       "src/entry-client.tsx",
-      "_Contact-425ba820.js",
+      "_Contact-8af5679e.js",
       "_routes-b910af9e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/bonus/index.tsx"
   },
   "src/routes/index.tsx": {
-    "file": "assets/index-28b55413.js",
+    "file": "assets/index-38457769.js",
     "imports": [
       "src/entry-client.tsx",
-      "_Contact-425ba820.js",
+      "_Contact-8af5679e.js",
       "_routes-b910af9e.js"
     ],
     "isDynamicEntry": true,
