@@ -1,11 +1,15 @@
 import { Component, For, Show, createSignal } from "solid-js";
 import {
   ProjectsCryoChamber,
+  ProjectsGridware,
   ProjectsPulsePlus,
   ProjectsRemotebase,
+  ProjectsTalently,
 } from "./content";
 
 const projectsList = [
+  { title: "Gridware", content: <ProjectsGridware /> },
+  { title: "Talently AI", content: <ProjectsTalently /> },
   { title: "Pulse Plus", content: <ProjectsPulsePlus /> },
   { title: "Remotebase", content: <ProjectsRemotebase /> },
   { title: "Music Label Site", content: <ProjectsCryoChamber /> },
