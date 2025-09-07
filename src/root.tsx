@@ -14,9 +14,9 @@ import {
 } from "solid-start";
 import { CounterProvider } from "./contexts";
 import { NavLayout } from "./layouts";
-import "./root.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./root.css";
 
 export default function Root() {
   onMount(() => AOS.init());
