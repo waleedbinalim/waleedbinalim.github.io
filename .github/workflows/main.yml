@@ -11,15 +11,62 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - run: corepack enable
+      - uses: actions/setup-node@v3
+        with:
+        node-version: "22"
+
 
       - name: install
-        run: npm i --legacy-peer-deps
+      - run: npx nypm install
+
 
       - name: build
-        run: npm run build
+      - run: npm run build
 
-      - name: deploy pages
-        uses: JamesIves/github-pages-deploy-action@v4.4.1
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          branch: gh-pages
-          folder: dist/public
+        path: ./.output/public
+
+        environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+
+
+        steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+        with:
+        branch: gh-pages
+
+
+
+# OLD        
+
+# name: CI
+
+# on:
+#   push:
+#     branches: [main]
+#   workflow_dispatch:
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - uses: actions/checkout@v3
+
+#       - name: install
+#         run: npm i --legacy-peer-deps
+
+#       - name: build
+#         run: npm run build
+
+#       - name: deploy pages
+#         uses: JamesIves/github-pages-deploy-action@v4.4.1
+#         with:
+#           branch: gh-pages
+#           folder: dist/public
