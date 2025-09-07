@@ -1,7 +1,9 @@
-import { Title } from "solid-start";
-import { About, Contact, Hero, Projects } from "~/components";
 
-export const Home = () => {
+import { Title } from "@solidjs/meta";
+import { Hero, About, Contact, Projects } from "~/components";
+
+
+export default function Home() {
   return (
     <>
       <main>
@@ -9,10 +11,8 @@ export const Home = () => {
         <Hero />
         <About />
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
       </main>
     </>
   );
 };
-
-export default Home;
