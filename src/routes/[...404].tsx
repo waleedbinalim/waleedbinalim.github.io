@@ -1,6 +1,6 @@
 import { A } from "@solidjs/router";
-import { Title } from "solid-start";
-import { HttpStatusCode } from "solid-start/server";
+import { Title } from "@solidjs/meta";
+import { HttpStatusCode } from "@solidjs/start";
 import { PageRoutes } from "~/enums";
 
 export default function NotFound() {
