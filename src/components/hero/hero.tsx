@@ -55,9 +55,6 @@ export const Hero: Component = () => {
             <div class="flex w-full justify-center pt-3">
               <For each={heroSocials}>
                 {(item) => {
-
-                  console.log(item.icon)
-
                   return (
                     <div
                       class="cursor-pointer fill-green-400 px-1 opacity-50 hover:opacity-100 [&_path]:!fill-gray-200 [&_svg]:h-6 [&_svg]:w-6 xl:[&_svg]:h-8 xl:[&_svg]:w-8 "
